@@ -33,7 +33,7 @@ function gameOver(){
 
 }
 
-var timer = 10;
+var timer = 60;
 function runTimer() {
     var timeInt = setInterval(() => {
         if (timer > 0) {
